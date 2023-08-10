@@ -1,5 +1,5 @@
-function Heading({ children }: { children: React.ReactNode }) {
-  return <h1>{children}</h1>
+function Heading(props: { children: React.ReactNode }) {
+  return <h1>{props.children}</h1>
 }
 
 export default Heading
